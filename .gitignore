@@ -1,0 +1,4 @@
+*.xlsx
+*.xls
+logs
+.DS_Store

@@ -1,0 +1,143 @@
+Commit Hash,Date,Author Name,Author Email,Commit Message
+5bd2f8f0dc8eaf5866f6b7f9f19618b5c58b220b,2019-10-18,Edward Thomson,ethomson@github.com,Add Linux CI with GitHub Actions
+980b07b77e8361c49f153b06cd514715efaee5c5,2019-10-18,Edward Thomson,ethomson@github.com,Add Windows CI with GitHub Actions
+c1bd0854d57f3f9d8773da5e6eb5988da0f8a374,2019-10-18,Edward Thomson,ethomson@github.com,Add macOS CI with GitHub Actions
+10586173b077ff3484563b83c1aa2d3b4696f37e,2019-10-22,Joao Moreno,joao.moreno@microsoft.com,use CHILD_CONCURRENCY=1 in actions
+62f9bd73d86c40fedd0e889dac2cf01bcd8111d0,2019-10-22,Joao Moreno,joao.moreno@microsoft.com,actions: use  GITHUB_TOKEN
+ff9818b875bf5fd5dcd4637df09642db715447ba,2019-10-23,Edward Thomson,ethomson@github.com,GitHub Actions: only run on master branch
+76f7c4d6d343f8a402258b70f256c941f6f1a4f6,2019-10-23,Edward Thomson,ethomson@github.com,GitHub Actions: include release branches for PRs
+66058c15527a0a35b68c75df99d04f68a5cf67a9,2019-10-23,Edward Thomson,ethomson@github.com,GitHub Actions: include release branches on push
+d9fb87d002d4745865ac1aa3d66ba3d7973aee50,2019-11-12,Peng Lyu,penn.lv@gmail.com,CI for Monaco Editor compile and bundling.
+25d4fa506be6567defebc5b64d7b13ea2b596391,2019-11-12,Peng Lyu,penn.lv@gmail.com,update yarn gulp esm bundle script
+7909462634a44f09e7f805bdeb9c082fd533e7e5,2019-12-27,Benjamin Pasero,benjpas@microsoft.com,tslint - rewrite globals rule to not use tslint (#87754)
+ca8a717f5e722ecf2458c82fd99a8427e3a10769,2020-01-03,Johannes Rieken,johannes.rieken@gmail.com,tslint removal
+078b82d428b60ddee5537edb8b3ba99605731b90,2020-01-07,Benjamin Pasero,benjpas@microsoft.com,debt - rewrite layers checker to catch more cases
+7ec3c528724e0709861210de4fcd58c8abf233e3,2020-01-27,Benjamin Pasero,benjpas@microsoft.com,GH ci - disable linux run for now
+01e9903967417ba243cec705445eef9ecbfebfea,2020-01-27,Benjamin Pasero,benjpas@microsoft.com,Try to fix Linux GH CI (#89323)
+9d9d72965533474f02d1dc8b0b866aedce20b251,2020-02-10,Benjamin Pasero,benjpas@microsoft.com,Web: run integration tests as part of our product builds (fix #83923)
+2175713d900c83f77df33623e3a7612c0564d0c4,2020-02-10,Benjamin Pasero,benjpas@microsoft.com,tests - try to fix playwright on linux in GH CI
+8d8a0ca03a97425b791dae6e2939dc91852d7a1c,2020-02-22,Alex Dima,alexdima@microsoft.com,Switch to run on Linux because it is faster
+bf09a2871a119ee1459d5a066ff23ff23e968361,2020-04-07,João Moreno,joao.moreno@microsoft.com,disable github CI
+61f634c1502e0d9d1bf61c08b64c91cea0f2e639,2020-04-07,João Moreno,joao.moreno@microsoft.com,disable ci
+bedacf4ee09f7c4543609a054c3fb87aa82b6dc0,2020-04-08,João Moreno,joao.moreno@microsoft.com,enable monaco editor in ci workflow
+7e4f90277da57cac7e5a8081878a400a77600e57,2020-11-24,João Moreno,joao.moreno@microsoft.com,run prettier over yml files
+124b4bd151d09cd30951eeb1d484ca4b5eb18688,2020-12-11,Alex Dima,alexdima@microsoft.com,Try newer `actions/checkout@v2`
+019b5ab4c99686cc60b8d260f5b06582f77100ca,2020-12-11,Alex Dima,alexdima@microsoft.com,Remove yarn `CHILD_CONCURRENCY` limit
+f201645d8f7b6a9ffd5d74e9d8e77f6fdfe589ab,2020-12-11,Alex Dima,alexdima@microsoft.com,Do not configure `xvfb`
+1d5611c9d8f62cc78233f8344cf300eed42e10e5,2020-12-11,Alex Dima,alexdima@microsoft.com,No need to install anything
+eea0681288d893456be53a058c0bb1c792604101,2020-12-11,Alex Dima,alexdima@microsoft.com,adopt `actions/setup-node@v2-beta`
+b857599fb9b511bb81e3aeb2fa5ca259f4691286,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Attempt to cache root node modules
+d9f2b49323c2990dcc6a864f971011fc21b44670,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Attempt to cache all node_modules folders
+bfaaca632f398b08c8301ea3fc6a9aef6874a67a,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Fix array syntax
+b9b1b6156f9d471ba5394c097e33fdb9a4a33357,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Run compile on the `/build/` folder if the node_modules cache is hit
+27dee6886740e6db0835d2bf9ebdb89627162fd9,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Attempt to revive linux github action
+b95feff0398a9ea115b02397882a360dd1e16c8e,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Fix indentation
+00c3a0bc9dc45d97df36f1ea8f2935c3f2f050df,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Gotta love yaml
+824df4da78f93833e62f1135b52c77e4bfca5691,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Fix duplicate name
+5e6152dcb39176be13d83bcc3df08000d91eb2fc,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Introduce a `linux-node-modules` job
+dc99b1ab774000568e39cbbaab2df09e33ca4bbd,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Add the key property to the Cache node modules action
+a0122361111dc0daec54e04d4fe38d4c296e8183,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Define `path` for the Cache node modules step
+2554c8c14e042fabc163bcf797af0d52fc108cce,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Remove the `linux-node-modules` job
+76436a4d43566cd313629799e2ec51b4d00caa64,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Cache the /build/ folder compilation
+c7fa4ef02189685e0b79f343ea543498b4c1d587,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Troubleshoot expression
+d819caf1d27650eb1171657339ffe68726c7a5af,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Fix if condition
+0ec1755aa9bcc564aa126c3ccff5eb80b7fab2cc,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Simplify caching strategy
+641abd4170dbafe6ccfaad35a476f54235ddc664,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Extract the hygiene check to its own job
+52d2132e8d93f6e76883076bcb07066f2034867b,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Move valid layers check together with the hygiene check
+01ea0ecc098e41812d38ad15ca172a6036c6c50e,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Remove playwright caching
+623440c55c14acd8bbfe7a18af14efa00fd1ac5b,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Extract cached yarn logic to a separate file
+7e7c1de569765ee654f72bf6017c8cea9115d615,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Follow the expected naming scheme
+d1d4143971acdad31fba287394ff9c0cad1b4e41,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Attempt using absolute path
+e3e3f8802ffc309056df3c7fcfa8e3282cc547fc,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Abandon composite actions since they cannot actually compose on other actions
+e2e23aeb7771bbfd8cccd61dd7c604b15349d153,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Add a compile and a linux build step
+0dd9cdbb45f39977cbea48debf1993935d86de84,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Fix env variable usages
+3bad41ff3c3b84675bd536a71d7dd97e4e95f865,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Attempt to run things in parallel
+0059c4cbfe09458d89d5da75d6e5c2f524b86773,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Tweak combined step
+44b918b624839e180301ab9fb5c6499a5da9826d,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Avoid "&"
+ba16f865b22ae102914867b619952fffb2c05565,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Remove compile and linux build for now
+73c050511b5dd62ac96b00534d1e9915e2490dff,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Avoid respawning
+58e88100755465c28531bfd0baa321d61eec9602,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Try `yarn concurrently`
+374e7487bd22ac8b8684c833b9aff1d98848dbf3,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Run unit tests concurrently
+70355b6676546736a8bb3a0bcc4e24eca5bc3d67,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Add macOS
+c5c6c8241134c319bb280cf025ed0e191979251a,2020-12-11,Alexandru Dima,alexdima@microsoft.com,Add Windows
+9489147837e377f440ef0df57e6a5c1829d60eca,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Re-enable build jobs
+75eeac010491c7156941d7fbb3751541e48b4f15,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Split Linux Build, add macOS jobs
+707afc26d6f0c6db8cdb36f29ba953537e6151c6,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Skip compilation if the cache is hit
+b742a4c8ea12475d499f951e972e315c17e58b04,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Create issue on test failure
+a861e22c7cc0d453d7344090382b53e6565861e5,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Switch to using `github.sha`
+b7f7b9fb8bdae452a687200900c12824425a343a,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Intentionally fail to test issue creation
+db4264eb3f8fdfa89d7e79b284778d7434c54343,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Fix variable
+614e183e9a2e31a70ee4d49ab9f590c1c29072be,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Attempt to avoid skipping steps on failure
+e25373f16ea98a821321286516232ee02f59c58e,2020-12-14,Alexandru Dima,alexdima@microsoft.com,One last try at automatic issue creation
+d1fff1a08360f0d35f124c990dc65a6bccd748d2,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Check in `.js` files from the `/build/` folder to improve build speeds
+672216afdab524aa1bc1e72f426683ce74abd78c,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Fix auto-generated link
+814bf82b853e54c4024ae07a3ebca521bc7399d8,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Split compilation job into core compilation and extensions compilation
+28776ec1a28f1267b17da74dff640d2e23b13a84,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Cache yarn cache directory
+90f0cf5b3131a55522a4e0227e0a3b8d42a38316,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Force cacheNodeModules to fail
+7d4c5a2c0fb76f3dc78cdf57b83c31b2430b863a,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Add a dedicated `Build: macOS Node Modules` job
+5f20ce95815ee7205d85482183ec48ee78c8482e,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Increase yarn's network timeout
+200d60cc13cc59ec81df8e2d6d7b454670cd1c10,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Do not create issue on failure
+d6e0a5424f2b5e0b6c0468687f1e09e35cfc6e19,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Use directly `yarn compile`
+387f4f4b1125930530169dca9cbb15521ce633b9,2020-12-14,Alexandru Dima,alexdima@microsoft.com,Skip electron binary download
+afbd2e826c79002ba416a58bc3cd81a77b19ea3d,2020-12-15,Alexandru Dima,alexdima@microsoft.com,Remove Build jobs for now
+175c1298b84d587516aaf82efba5443c9fdf25e9,2020-12-15,João Moreno,joao.moreno@microsoft.com,remove all usage of concurrently
+d03c18661cbcd73e107aa210c20636dfdb8f399c,2020-12-17,Alexandru Dima,alexdima@microsoft.com,Windows CI: Do not cache symbol files
+3bff49d246801371822ed2d735a24a2ff8082f52,2020-12-18,Alexandru Dima,alexdima@microsoft.com,More tweaks to Windows cache exclusions
+c2044d680f49823f108b44fa99130a62f7f889dd,2020-12-18,Alexandru Dima,alexdima@microsoft.com,bust the node module cache
+07b28e284bada650dfabb0f3a7b928788a7ff1eb,2020-12-23,Alexandru Dima,alexdima@microsoft.com,Bust the node modules cache
+f23ed65688e94c807412c6e86230e6e78405bd4f,2020-12-23,Alexandru Dima,alexdima@microsoft.com,Compute node modules cache key in JS to avoid globbing
+cead26666335080c710290511e4888b5c692d2ef,2020-12-28,Alexandru Dima,alexdima@microsoft.com,Align all yarn caching steps
+4df5991023a637753cef1d636576415f8b2d8404,2020-12-28,Alexandru Dima,alexdima@microsoft.com,Adopt latest setup-node action
+802a36b09706fab8ea89937b923eb02bf30b8013,2020-12-28,Alexandru Dima,alexdima@microsoft.com,Add typings validation
+2ca3e67f32d498035041cce212e7129ceef89487,2020-12-28,Alexandru Dima,alexdima@microsoft.com,Rearrange CI jobs
+f19eb28477e63e46bdf53812892e89640baa893b,2020-12-28,Alexandru Dima,alexdima@microsoft.com,Avoid installing typescript
+9945754a6203ab0e92a7f77b9a18e63c0f9392bd,2020-12-28,Alexandru Dima,alexdima@microsoft.com,Add editor smoke test (ported from `monaco-editor`)
+58852eaa8544ca6b2033bff651ac3960454abc7b,2020-12-29,Alexandru Dima,alexdima@microsoft.com,Add a timeout to the editor tests step
+87c2cf1b5907bed055e6cd00bebed93037130275,2021-01-04,Alexandru Dima,alexdima@microsoft.com,Merge the Monaco Editor job into the hygiene and layering check job
+72572c59cfbc1fe5792092e89894bfe5c3cd2510,2021-01-07,Alexandru Dima,alexdima@microsoft.com,bust the node modules cache
+a59f30011c13862fd173c539f7e529c65b1abb7e,2021-01-13,Alex Dima,alexdima@microsoft.com,Add a 30min cap to CI jobs
+9f3832dc68866d682c7869e7bbc9175752c40443,2021-01-14,Alexandru Dima,alexdima@microsoft.com,Bust the node module cache
+c16956439b32c260b512fa0337f9488aca772f55,2021-01-18,Alexandru Dima,alexdima@microsoft.com,Bust node module cache
+0c02f245f07efc644ed65dc6057d83892e70c973,2021-01-21,Alexandru Dima,alexdima@microsoft.com,bust node module caches
+232052d7e63ae0ae81b4e45cba9e85dbac13f7ae,2021-01-21,Alexandru Dima,alexdima@microsoft.com,Create our own node modules archive (#114516)
+831d194287428a650cf8aaf1a1b95ef85127c68e,2021-01-21,Alexandru Dima,alexdima@microsoft.com,Create .build directory
+968ce642c3c059b8538843bf79a68de0e8a94822,2021-02-12,Johannes Rieken,johannes.rieken@gmail.com,add tsec to CI, https://github.com/microsoft/vscode/issues/116459
+980becda8d52cc341ddf349021bbda0788912b4d,2021-02-14,João Moreno,joao.moreno@microsoft.com,main rename
+79a429d92d2ceaff4b1510cea43d03a7b91d42d9,2021-03-02,deepak1556,hop2deep@gmail.com,chore: bump electron@12.0.2
+f95b7e935f0edf1b41a2195fbe380078b29ab8f8,2021-04-09,deepak1556,hop2deep@gmail.com,Revert "chore: bump electron@12.0.2"
+3fb483e7fff42559b5f93e8aa92d0354021ee5ff,2021-04-13,deepak1556,hop2deep@gmail.com,chore: bump electron@12.0.4
+c704e43d5dc8cdf6570ad61e5f06baa67e4cfa83,2021-05-26,Alex Dima,alexdima@microsoft.com,Check that the /build/ folder compiles
+95613ac0b4062277f14d290062a2c6f3e3c7e989,2021-06-28,Tyler James Leonhardt,me@tylerleonhardt.com,bump CI to node 14
+5515f635fa3d2b259823fc8ec92a7932a66c33b5,2021-06-28,Tyler James Leonhardt,me@tylerleonhardt.com,Bump node for other platforms
+9520f0a515e7e24802c92f885a0efb242fca3831,2021-07-14,Robo,hop2deep@gmail.com,chore: update to electron 13 (#124666)
+8bda4433b1829ed8ca64b8c5638eb88a8ddb3987,2021-07-15,Johannes Rieken,johannes.rieken@gmail.com,make sure to run eslint in ci
+96d04261743536ba91a017de1945a301abd84b42,2021-07-19,Johannes Rieken,johannes.rieken@gmail.com,add vscode-dts-compile-check to ensure that vscode.d.ts is self-contained, esp that it doesn't depend on vscode.proposed.d.ts, and that uses es5 only
+eede0a5b712cbaeb0ce3ad9b3b54261f1d6c1f91,2021-08-03,Robo,hop2deep@gmail.com,ci: fix keychain (#130068)
+6a25ae3a24929f35aabf8a051531c0716032e0a0,2021-11-15,Tyler James Leonhardt,me@tylerleonhardt.com,enable browser and remote integration tests (#137254)
+23d5cb019d9443fa6fb678cf961b81a066b1c12d,2021-11-23,Benjamin Pasero,benjamin.pasero@microsoft.com,:lipstick: CI names
+754190f32699960178460e0da365d2f2256249ac,2021-11-24,Benjamin Pasero,benjpas@microsoft.com,Run unit tests against node.js too (#137790)
+e53bee0fbfb174c7ca47914bdae63fbced61183f,2021-12-01,Alex Dima,alexdima@microsoft.com,Increase timeouts (since now we run remote integration tests too)
+52eaad07614756b68e86aad1efdb6fb7cae33dfe,2021-12-08,Benjamin Pasero,benjamin.pasero@microsoft.com,ci - add name of browser to web tests
+39f1f7bd41b87ec431a67aa07cb8e78bcb6cd610,2021-12-13,Joao Moreno,joao.moreno@microsoft.com,remove bogus build steps, added retries to yarn install in new places
+508d38f63338130a45a523d3149e80a1263554ec,2022-01-12,Daniel Imms,2193314+Tyriar@users.noreply.github.com,Increase integration test timeouts
+e745988b7517623ba286fee880d1f87efd78b2c5,2022-01-13,Alex Dima,alexdima@microsoft.com,Increase timeout (for cases when the yarn cache is not hit)
+db8eff1085591cde76f05d387ae9d995697f3103,2022-01-16,Benjamin Pasero,benjamin.pasero@microsoft.com,tests - try to fix macOS GH CI
+365fea1d61606ed4238cc4b1abe358cf3d0c91de,2022-01-20,Benjamin Pasero,benjamin.pasero@microsoft.com,fix #141060
+3640c1a425713e905f7898917cd15cc077204697,2022-01-21,Martin Aeschlimann,martinae@microsoft.com,move remote and web tests to scripts folder
+c9960f9cee75ccddb3883f347bf5dad6d315b691,2022-01-22,Benjamin Pasero,benjpas@microsoft.com,Cleanup package.json test scripts (#141210)
+bd369c638ea582aedb3dcd9d05eb8dcd2158496f,2022-01-25,Alex Dima,alexdima@microsoft.com,Add check that the editor's ESM JS files can be loaded in a browser
+fcb7a9f7c8df0bdd2f5477810fce3b5f8b958835,2022-01-25,Alex Dima,alexdima@microsoft.com,Install playwright using `npx playwright install`
+a33a7120428a3c45d11143847d23177d5c444cf1,2022-01-25,Alex Dima,alexdima@microsoft.com,Install playwright deps
+1b1d594671b69f7e2158bf8121eba8e8c349b9c0,2022-01-25,Alex Dima,alexdima@microsoft.com,Run headless on CI
+c80889f152c6b267e86254654afae2045e563d25,2022-01-28,Alex Dima,alexdima@microsoft.com,Check that the /build/ folder compiles and all `.js` is checked in (#141653)
+01df559c184549248fcfbcecc5a616462e00c252,2022-02-09,Robo,hop2deep@gmail.com,chore: update to electron 16 (#137241)
+df645f14506142d6b20be6f6bda6bc40286ff739,2022-02-25,Robo,hop2deep@gmail.com,chore: revert to electron@13 (#143851)
+3698976d03e70b3392d8808d3b138c6d12b8cb9b,2022-02-28,Ladislau Szomoru,3372902+lszomoru@users.noreply.github.com,Update ci.yml
+5783ee998dd098f03e4380b6549d41eb6f80ee37,2022-02-28,Robo,hop2deep@gmail.com,ci: update node-gyp for VS 2022 support (#144056)
+c3e948aa30f54b0ad20f1a99627949cda4ad0c9f,2022-03-02,deepak1556,hop2deep@gmail.com,ci: fix build with latest node-gyp
+eca9017c9dc44afea7b2bcfdf277c98130bef861,2022-03-02,Robo,hop2deep@gmail.com,ci: fix env configuration (#144229)
+d1e59b8fc534fd31a0065820f8697bab503ec28c,2022-03-09,Alex Dima,alexdima@microsoft.com,Move Monaco Editor checks to a separate GH action
+32d40cf44e893e87ac33ac4f08de1e5f7fe077fc,2022-03-11,Robo,hop2deep@gmail.com,chore: update to electron 17 (#143223)
+b4914124f1a597092b9842d6a5d1c3e1d09ff977,2022-03-23,Eliaz Bobadilla,eliaz.bobadilladev@gmail.com,chore: bump actions/checkout (#145891)
+2c507cfc6eee78c59052250f9b4e0646d8be683c,2022-05-04,Alex Dima,alexdima@microsoft.com,Extract the hygiene check to a separate action
+97245c34c2c3cd3e58b507c2b5f81f85b5129fb6,2022-05-04,Alex Dima,alexdima@microsoft.com,Revert "Extract the hygiene check to a separate action"
